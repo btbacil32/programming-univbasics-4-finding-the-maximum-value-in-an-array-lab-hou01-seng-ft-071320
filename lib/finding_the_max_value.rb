@@ -1,3 +1,11 @@
-def find_max_value(array)
-  # Add your solution here
+def find_max_value(scale)
+  count = 0
+  max_value = -1
+  while count < scale.length do
+    if max_value < scale[count]
+      max_value = scale[count]
+  end
+  count += 1
+  end
+  max_value
 end
